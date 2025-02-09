@@ -1,5 +1,5 @@
 const febHolidays = [
-   "Dear [Her Name] 💖,",
+   "Distance fades when souls are near 💓",
    "Warm wishes straight from my heart ❤️.",
    "You are my shining star ✨.",
    "Every moment with you brings joy 💭.",
@@ -7,7 +7,7 @@ const febHolidays = [
    "You hold a beautiful place in my heart 💞.",
    "You light up my world 🌞.",
    "Our bond is simply unique 🔗.",
-   "Distance fades when souls are near 💓.",
+   "Dear Detective Ji 💖.",
    "You're my precious delight 🌷.",
    "Amazing in every little way 🌟.",
    "Grateful for every shared smile 🙏.",
