@@ -1,25 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>love</title>
-    <link rel="stylesheet" href="yes.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Font Link for Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-    <script src="yes.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love</title>
+  <!-- Link to your external stylesheet if needed -->
+  <!-- <link rel="stylesheet" href="yes.css"> -->
+  
+  <!-- Inline CSS for styling -->
+  <style>
+    /* Reset some defaults */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f8f8f8;
+      color: #333;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background: #ffcccb;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 2em;
+      color: #333;
+    }
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul li {
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin: 10px 0;
+      padding: 15px;
+      background: #fafafa;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    ul li:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    ul li time {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    .controls {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .controls button {
+      background: #ffcccb;
+      border: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-size: 1.2em;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .controls button:hover {
+      background: #ffb6b9;
+    }
+  </style>
+  
+  <!-- Google Font Link for Icons (if you need them) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <script src="yes.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Dil ki baaten ❤ Sona baby</h1>
-      </header>
-      <div class="container">
-        <ul></ul>
-        <div class="controls">
-          <button onclick="adjustDay(-1)">👆</button>
-          <button onclick="adjustDay(1)">👇</button>
-        </div>
-      </div>
+  <header>
+    <h1>Dil ki baaten ❤ Sona baby</h1>
+  </header>
+  <div class="container">
+    <ul></ul>
+    <div class="controls">
+      <button onclick="adjustDay(-1)">👆</button>
+      <button onclick="adjustDay(1)">👇</button>
+    </div>
+  </div>
 </body>
 </html>
